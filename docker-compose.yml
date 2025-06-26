@@ -62,7 +62,6 @@ services:
     restart: always
     depends_on:
       - vectordb
-    env_file:
 
 volumes:
   pgdata2:
